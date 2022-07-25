@@ -15,11 +15,11 @@ import { AiOutlineCheck } from 'react-icons/ai';
 
 const About = (): React.ReactElement => {
     return (
-        <Flex direction="column" justifyContent="center" alignItems="center"
+        <Flex id="about" direction="column" justifyContent="center" alignItems="center"
         width="100%" height="900px">
-            <Heading color="whiteAlpha.900">About Me</Heading>
+            <Heading color="whiteAlpha.900" className="animate-character2">About Me</Heading>
             <Flex direction="row" width="60%" mt="65px">
-                <Box width="57%">
+                <Box width="57%" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                     <Text color="whiteAlpha.900" fontSize="20px">Hey! My name is Linfeng Song, 
                     but I also go by Oscar as well.
                     I am currently pursuing a B.S. in Computer Science at the 

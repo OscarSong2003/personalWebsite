@@ -10,23 +10,27 @@ import {
     Divider
 } from "@chakra-ui/react";
 
+const toggle = true; 
 const NavBar = (): React.ReactElement => {
+
+
     return (
-        <Box width="100%" position="fixed" top="0px" height="110px"
-        > 
-            <Flex width="100%" flexDirection="row" px="80px" pt="30px" pb="15px">
-                <Link><Heading color="whiteAlpha.900">LS</Heading></Link>
+        <Box width="100%" position="fixed" top="0px" height="110px">
+            <Flex bg="blackAlpha.600" width="100%" flexDirection="row" px="80px" pt="30px" pb="15px">
+                <Link href="#home"><Heading color="whiteAlpha.900">LS</Heading></Link>
                 <Spacer />
                 <Flex mt={2} width="60%" flexDirection="row" justifyContent="flex-end">
-                    <Link><Text fontWeight="bold" color="whiteAlpha.900">Home</Text></Link>
+                    <Link href="#home"><Text fontWeight="bold" color="whiteAlpha.900">Home</Text></Link>
                     <Spacer />
-                    <Link><Text fontWeight="bold" color="whiteAlpha.900">About</Text></Link>
+                    <Link href="#about"><Text fontWeight="bold" color="whiteAlpha.900">About</Text></Link>
                     <Spacer />
-                    <Link><Text fontWeight="bold" color="whiteAlpha.900">Projects</Text></Link>
+                    <Link href="#experience"><Text fontWeight="bold" color="whiteAlpha.900">Experience</Text></Link>
                     <Spacer />
-                    <Link><Text fontWeight="bold" color="whiteAlpha.900">Experience</Text></Link>
+                    <Link href="#projects"><Text fontWeight="bold" color="whiteAlpha.900">Projects</Text></Link>
                     <Spacer />
-                    <Link><Text fontWeight="bold" color="whiteAlpha.900">Contact</Text></Link>
+                    <Link href="#activities"><Text fontWeight="bold" color="whiteAlpha.900">Activities</Text></Link>
+                    <Spacer />
+                    <Link href="#reachOut"><Text fontWeight="bold" color="whiteAlpha.900">Contact</Text></Link>
                     <Spacer />
                     <Link><Text fontWeight="bold" color="whiteAlpha.900">Resume</Text></Link>
                 </Flex>

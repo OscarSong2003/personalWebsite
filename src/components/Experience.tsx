@@ -9,12 +9,12 @@ import {
 
 const Experience = (): React.ReactElement => {
     return (
-        <Flex direction="column" justifyContent="center" alignItems="center"
+        <Flex id="experience" direction="column" justifyContent="center" alignItems="center"
         width="100%" height="900px">
-             <Heading mb={5} color="whiteAlpha.900">Experience</Heading>
-             <Flex direction="column" justifyContent="left" alignItems="left"
-             width="50%">
-                <Text mt={8} fontSize="22px" color="whiteAlpha.800">Research Intern @ Michigan Human-AI Lab</Text>
+             <Heading mb={5} color="whiteAlpha.900" className="animate-character3">Experience</Heading>
+             <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
+             width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
+                <Text fontSize="22px" color="whiteAlpha.800">Research Intern @ Michigan Human-AI Lab</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">Ann Arbor, Michigan</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">May 2022 - Present</Text>
 

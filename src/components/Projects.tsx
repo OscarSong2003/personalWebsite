@@ -17,11 +17,11 @@ import { AiOutlineCheck } from "react-icons/ai";
 
 const Projects = (): React.ReactElement => {
     return (
-        <Flex direction="column" width="100%" height="2400px" px="81px" alignItems="center" justifyContent="center">
-            <Center width="100%"><Heading mb={5} color="whiteAlpha.900">Projects</Heading></Center>
+        <Flex pt="180px" id="projects" direction="column" width="100%" height="2600px" px="81px" alignItems="center" justifyContent="center">
+            <Center width="100%"><Heading mb={5} color="whiteAlpha.900" className="animate-character4">Projects</Heading></Center>
             
-            <Flex mt="45px"direction="row"  width="90%"  height="500px" borderRadius="2xl" >
-                <Box width="50%" height="80%" borderRadius="2xl" bg="gray.400">
+            <Flex mt="70px"direction="row"  width="90%"  height="500px" borderRadius="2xl" >
+                <Box width="50%" height="80%" borderRadius="2xl" borderWidth="2px">
                     <Center width="100%" height="100%">
                         {/* <Box borderRadius="2xl" as="iframe" src="https://www.youtube.com/embed/JEENmXVHiu4" allowFullScreen width="97%" height="96%"></Box> */}
                         <Image ml="50px" mt="55px" borderRadius="2xl" height="100%" width="100%" src='/images/unex.png' alt='Unex' />
@@ -125,7 +125,7 @@ const Projects = (): React.ReactElement => {
                         </SimpleGrid>
                     </Flex>
                 </Box>
-                <Box width="50%" height="80%" bg="gray.300" ml="30px" borderRadius="2xl">
+                <Box width="50%" height="80%" borderWidth="2px" ml="30px" borderRadius="2xl">
                     <Center width="100%" height="100%">
                         {/* <Box borderRadius="2xl" as="iframe" src="https://www.youtube.com/embed/JEENmXVHiu4" allowFullScreen width="97%" height="96%"></Box> */}
                         <Image mr="50px" mb="55px" borderRadius="2xl" height="100%" width="100%" src='/images/gui.png' alt='Unex' />
@@ -137,7 +137,7 @@ const Projects = (): React.ReactElement => {
             </Box>
             {/* third project */}
             <Flex mt="20px"direction="row"  width="90%"  height="500px" borderRadius="2xl" >
-                <Box width="50%" height="80%" borderRadius="2xl" bg="gray.400">
+                <Box width="50%" height="80%" borderRadius="2xl" borderWidth="2px">
                     <Center width="100%" height="100%">
                         {/* <Box borderRadius="2xl" as="iframe" src="https://www.youtube.com/embed/JEENmXVHiu4" allowFullScreen width="97%" height="96%"></Box> */}
                         <Image ml="50px" mt="55px" borderRadius="2xl" height="100%" width="100%" src='/images/ff.png' alt='Unex' />
@@ -193,8 +193,8 @@ const Projects = (): React.ReactElement => {
                 <hr></hr>
             </Box>
             {/* fourth project */}
-            <Flex mt="50px" direction="row"  width="90%"  height="500px" borderRadius="2xl" >
-                <Box width="50%" height="80%" borderRadius="2xl" pl="0px" pt="10px">
+            <Flex mt="65px" direction="row"  width="90%"  height="500px" borderRadius="2xl" >
+                <Box width="50%" height="80%" borderRadius="2xl" pl="0px" pt="20px">
                     <Flex flexDirection="column" ml="0px" mr="40px" height="400px" px="15px" py="10px" borderRadius="2xl" borderColor="whiteAlpha.700">
                         <Text color="whiteAlpha.900" fontSize="20px" fontWeight="bold">Meeting Notes Generator</Text>
                         <Text color="whiteAlpha.900" fontSize="20px">Winter 2021 - Summer 2022</Text>
@@ -238,10 +238,10 @@ const Projects = (): React.ReactElement => {
                         </SimpleGrid>
                     </Flex>
                 </Box>
-                <Box width="50%" height="80%" bg="gray.300" ml="30px" borderRadius="2xl">
+                <Box width="50%" height="80%" borderWidth="2px" ml="30px" borderRadius="2xl">
                     <Center width="100%" height="100%">
                         {/* <Box borderRadius="2xl" as="iframe" src="https://www.youtube.com/embed/JEENmXVHiu4" allowFullScreen width="97%" height="96%"></Box> */}
-                        <Image mr="50px" mb="55px" borderRadius="2xl" height="100%" width="100%" src='/images/gui.png' alt='Unex' />
+                        <Image mr="50px" mb="55px" borderRadius="2xl" height="100%" width="100%" src='/images/analyzer.png' alt='Unex' />
                     </Center>
                 </Box>
             </Flex>
