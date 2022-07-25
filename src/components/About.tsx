@@ -60,7 +60,7 @@ const About = (): React.ReactElement => {
                         </Button>
                     </SimpleGrid>
                 </Box>
-                <Box width="40%" ml="50px" borderColor="whiteAlpha.600" borderWidth="5px" shadow="md">
+                <Box width="356px" ml="50px" height="460px" borderColor="whiteAlpha.600" borderWidth="5px" shadow="md">
                     <Image height="450px" width="350px" src='/images/profilePic.png' alt='Linfeng Song' />
                 </Box>
             </Flex>
