@@ -18,7 +18,7 @@ const Footer = (): React.ReactElement => {
                 <Image mt={2} pb={1} ml={8} height="30px" src="/images/logo.png" alt="logo" />
                 <Spacer />
                 <Text  pt="9px" mr={6} fontSize="sm" fontWeight="bold">
-                    &copy; {new Date().getFullYear()} Linfeng Song
+                    Created by Linfeng Song
                 </Text>
                 <ButtonGroup variant="ghost" mr={8}>
                 <IconButton
@@ -29,7 +29,7 @@ const Footer = (): React.ReactElement => {
                     icon={<FaLinkedin fontSize="1.25rem" />}
                 />
 
-                <IconButton as="a" href="https://github.com/OscarSong2003" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />} />
+                <IconButton as="a" target="_blank" href="https://github.com/OscarSong2003" aria-label="GitHub" icon={<FaGithub fontSize="1.25rem" />} />
                 </ButtonGroup>
             </Flex> 
             )

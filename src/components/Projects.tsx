@@ -9,7 +9,8 @@ import {
     Button,
     Spacer,
     SimpleGrid,
-    Icon
+    Icon,
+    Link
 } from "@chakra-ui/react";
 import { FaGithub } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
@@ -31,14 +32,18 @@ const Projects = (): React.ReactElement => {
                     <Flex flexDirection="column" ml="50px"  height="400px" px="15px" py="10px"  borderRadius="2xl" borderColor="whiteAlpha.700">
                         <Text color="whiteAlpha.900" fontSize="20px" fontWeight="bold">Student Financial Tracker</Text>
                         <Text color="whiteAlpha.900" fontSize="20px">Winter 2021 - Summer 2022</Text>
-                        <Flex flexDirection="row" width="63%" mt={5}>
-                            <Button leftIcon={<FaGithub fontSize="20px" />}>
-                                Source Code
-                            </Button>
+                        <Flex flexDirection="row" width="64%" mt={5}>
+                            <Link target="_blank" href="https://github.com/OscarSong2003/Unex">
+                                <Button leftIcon={<FaGithub fontSize="20px" />}>
+                                    Source Code </Button>
+                            </Link>
                             <Spacer />
-                            <Button leftIcon={<BsYoutube />}>
-                                Video Demo
-                            </Button>
+                            <Link target="_blank" href="https://www.youtube.com/watch?v=JEENmXVHiu4">
+                                <Button leftIcon={<BsYoutube />}>
+                                    Video Demo
+                                </Button>
+                            </Link>
+                            
                         </Flex>
                         <Text color="whiteAlpha.800" fontSize="18px" mt={3}>
                             A web application that empowers university students to create, view, and manage their income and expenditures
@@ -84,14 +89,18 @@ const Projects = (): React.ReactElement => {
                     <Flex flexDirection="column" ml="0px" mr="40px" height="400px" px="15px" py="10px" borderRadius="2xl" borderColor="whiteAlpha.700">
                         <Text color="whiteAlpha.900" fontSize="20px" fontWeight="bold">Machine Learning Graphical User Interface</Text>
                         <Text color="whiteAlpha.900" fontSize="20px">Summer 2022</Text>
-                        <Flex flexDirection="row" width="61%" mt={5}>
-                            <Button leftIcon={<FaGithub fontSize="20px" />}>
-                                Source Code
-                            </Button>
+                        <Flex flexDirection="row" width="62%" mt={5}>
+                            <Link target="_blank" href="https://github.com/OscarSong2003/ForteStaveUI">
+                                <Button leftIcon={<FaGithub fontSize="20px" />}>
+                                    Source Code
+                                </Button>
+                            </Link>
                             <Spacer />
-                            <Button leftIcon={<BsYoutube />}>
-                                Video Demo
-                            </Button>
+                            <Link target="_blank" href="https://youtu.be/GvS-qwK28wo">
+                                <Button leftIcon={<BsYoutube />}>
+                                    Video Demo
+                                </Button>
+                            </Link>
                         </Flex>
                         <Text color="whiteAlpha.800" fontSize="18px" mt={3}>
                             A web user interface that facilitates natural language processing, machine learning, and remote processing tasks for Forte and Stave 
@@ -147,7 +156,7 @@ const Projects = (): React.ReactElement => {
                     <Flex flexDirection="column" ml="50px"  height="400px" px="15px" py="10px"  borderRadius="2xl" borderColor="whiteAlpha.700">
                         <Text color="whiteAlpha.900" fontSize="20px" fontWeight="bold">Function Frenzy Game</Text>
                         <Text color="whiteAlpha.900" fontSize="20px">Summer 2021 - Present</Text>
-                        <Flex flexDirection="row" width="78%" mt={5}>
+                        <Flex flexDirection="row" width="79.3%" mt={5}>
                             <Button disabled leftIcon={<FaGithub fontSize="20px" />}>
                                 Source Code Coming
                             </Button>
@@ -198,14 +207,19 @@ const Projects = (): React.ReactElement => {
                     <Flex flexDirection="column" ml="0px" mr="40px" height="400px" px="15px" py="10px" borderRadius="2xl" borderColor="whiteAlpha.700">
                         <Text color="whiteAlpha.900" fontSize="20px" fontWeight="bold">Meeting Notes Generator</Text>
                         <Text color="whiteAlpha.900" fontSize="20px">Winter 2021 - Summer 2022</Text>
-                        <Flex flexDirection="row" width="61%" mt={5}>
-                            <Button leftIcon={<FaGithub fontSize="20px" />}>
-                                Source Code
-                            </Button>
+                        <Flex flexDirection="row" width="62%" mt={5}>
+                            <Link target="_blank" href="https://github.com/OscarSong2003/MeetingNoteAnalyzer">
+                                <Button leftIcon={<FaGithub fontSize="20px" />}>
+                                    Source Code
+                                </Button>
+                            </Link>
                             <Spacer />
-                            <Button leftIcon={<BsYoutube />}>
-                                Video Demo
-                            </Button>
+                            <Link target="_blank" href="https://youtu.be/tFfNP1MZJA8">
+                                <Button leftIcon={<BsYoutube />}>
+                                    Video Demo
+                                </Button>
+                            </Link>
+                        
                         </Flex>
                         <Text color="whiteAlpha.800" fontSize="18px" mt={3}>
                             An audio processing application that enables users to record meetings, conduct name entity recognition/speaker segmentation, and output annotated meeting notes.

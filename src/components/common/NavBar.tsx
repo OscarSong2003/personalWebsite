@@ -31,8 +31,6 @@ const NavBar = (): React.ReactElement => {
                     <Link href="#activities"><Text fontWeight="bold" color="whiteAlpha.900">Activities</Text></Link>
                     <Spacer />
                     <Link href="#reachOut"><Text fontWeight="bold" color="whiteAlpha.900">Contact</Text></Link>
-                    <Spacer />
-                    <Link><Text fontWeight="bold" color="whiteAlpha.900">Resume</Text></Link>
                 </Flex>
             </Flex>
             <Box justifyContent="center" px="81px"> 
