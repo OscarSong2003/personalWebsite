@@ -19,7 +19,7 @@ const NavBar = (): React.ReactElement => {
             <Flex bg="blackAlpha.600" width="100%" flexDirection="row" px="80px" pt="20px" pb="15px">
                 <Link href="#home"><Heading color="whiteAlpha.900">LS</Heading></Link>
                 <Spacer />
-                <Flex mt={2} width="60%" flexDirection="row" justifyContent="flex-end">
+                <Flex mt={2} width="60%" flexDirection={{base: "column", md: "row", lg: "row"}} justifyContent="flex-end">
                     <Link href="#home"><Text fontWeight="bold" color="whiteAlpha.900">Home</Text></Link>
                     <Spacer />
                     <Link href="#about"><Text fontWeight="bold" color="whiteAlpha.900">About</Text></Link>

@@ -13,7 +13,6 @@ import {
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { HiOutlineMailOpen } from 'react-icons/hi'
 
-
 const Home = (): React.ReactElement => {
     return (
         <Flex id="home" direction="column" justifyContent="center" alignItems="center"

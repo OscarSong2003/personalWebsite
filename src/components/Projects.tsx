@@ -158,11 +158,11 @@ const Projects = (): React.ReactElement => {
                         <Text color="whiteAlpha.900" fontSize="20px">Summer 2021 - Present</Text>
                         <Flex flexDirection="row" width="79.3%" mt={5}>
                             <Button disabled leftIcon={<FaGithub fontSize="20px" />}>
-                                Source Code Coming
+                                Coming
                             </Button>
                             <Spacer />
                             <Button disabled leftIcon={<BsYoutube />}>
-                                Video Coming
+                                Coming
                             </Button>
                         </Flex>
                         <Text color="whiteAlpha.800" fontSize="18px" mt={3}>
