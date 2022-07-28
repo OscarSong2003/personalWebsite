@@ -32,7 +32,7 @@ const Projects = (): React.ReactElement => {
                     <Flex flexDirection="column" ml="50px"  height="400px" px="15px" py="10px"  borderRadius="2xl" borderColor="whiteAlpha.700">
                         <Text color="whiteAlpha.900" fontSize="20px" fontWeight="bold">Student Financial Tracker</Text>
                         <Text color="whiteAlpha.900" fontSize="20px">Winter 2021 - Summer 2022</Text>
-                        <Flex flexDirection="row" width="64%" mt={5}>
+                        <Flex flexDirection="row" width="63.6%" mt={5}>
                             <Link target="_blank" href="https://github.com/OscarSong2003/Unex">
                                 <Button leftIcon={<FaGithub fontSize="20px" />}>
                                     Source Code </Button>
@@ -156,7 +156,7 @@ const Projects = (): React.ReactElement => {
                     <Flex flexDirection="column" ml="50px"  height="400px" px="15px" py="10px"  borderRadius="2xl" borderColor="whiteAlpha.700">
                         <Text color="whiteAlpha.900" fontSize="20px" fontWeight="bold">Function Frenzy Game</Text>
                         <Text color="whiteAlpha.900" fontSize="20px">Summer 2021 - Present</Text>
-                        <Flex flexDirection="row" width="79.3%" mt={5}>
+                        <Flex flexDirection="row" width="49.3%" mt={5}>
                             <Button disabled leftIcon={<FaGithub fontSize="20px" />}>
                                 Coming
                             </Button>
