@@ -19,7 +19,8 @@ const Home = (): React.ReactElement => {
         width="100%" height="900px">
             <Text mt="50px" color="whiteAlpha.900" fontSize="3xl"
             letterSpacing="5px">Hello there! My name is</Text>
-            <Heading className="animate-character" color="whiteAlpha.900" my={7} size="4xl">Linfeng</Heading>
+            <Heading className="animate-character" color="whiteAlpha.900" my={7} size="4xl">Linfeng &#40;Oscar&#41;</Heading>
+            {/* <Heading className="animate-character" color="whiteAlpha.900" my={7} size="4xl"></Heading> */}
             <Heading className="animate-character" color="whiteAlpha.900" size="4xl">Song</Heading>
             <Text mt="50px" color="whiteAlpha.900" fontSize="23px" width="700px" textAlign="center">
                 I study <b>Computer Science</b> at the <b>University of Michigan</b>, Ann Arbor.
