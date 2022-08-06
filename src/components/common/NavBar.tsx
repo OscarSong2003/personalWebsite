@@ -15,7 +15,7 @@ const NavBar = (): React.ReactElement => {
 
 
     return (
-        <Box width="100%" position="fixed" top="0px" height="100px">
+        <Box width="100%" position="fixed" top="0px" height="100px" zIndex="overlay">
             <Flex bg="blackAlpha.600" width="100%" flexDirection="row" px="80px" pt="20px" pb="15px">
                 <Link href="#home"><Heading color="whiteAlpha.900">LS</Heading></Link>
                 <Spacer />
