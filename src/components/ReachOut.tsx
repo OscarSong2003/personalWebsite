@@ -19,7 +19,9 @@ const ReachOut = (): React.ReactElement => {
         width="100%" height="700px">
             <Center width="100%"><Heading mb={5} color="whiteAlpha.900" className="animate-character6">Contact & Connect With Me</Heading></Center>
             <Box mt={3} width="55%" textAlign="center">
-                <Text fontSize="2xl" color="whiteAlpha.800">I am currently seeking software engineering related internships and opportunities!
+                <Text fontSize="2xl" color="whiteAlpha.800">
+                {/* I am currently seeking software engineering related internships and opportunities! */}
+                I am always interested to chat about new opportunities in AI or Software Engineering. 
                 If you would like to connect with me or simply chat, please do not hesitate to reach out at anytime on LinkedIn or Email! 
                 I will try to respond as soon as possible.</Text>  
             </Box>
