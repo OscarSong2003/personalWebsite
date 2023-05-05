@@ -14,9 +14,9 @@ const Experience = (): React.ReactElement => {
              <Heading mb={5} color="whiteAlpha.900" className="animate-character3">Experience</Heading>
              <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
-                <Text fontSize="22px" color="whiteAlpha.800">Incoming Software Development Engineer Intern @ Amazon</Text>
+                <Text fontSize="22px" color="whiteAlpha.800">Software Development Engineer Intern @ Amazon</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">San Diego, California</Text>
-                <Text mt={1} fontSize="20px" color="whiteAlpha.800">September 2022 - Present</Text>
+                <Text mt={1} fontSize="20px" color="whiteAlpha.800">May 2023 - July 2023</Text>
             </Flex>
 
              <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
