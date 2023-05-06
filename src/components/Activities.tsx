@@ -23,7 +23,7 @@ const Activities = () => {
                     {/* <Box width="100%" textAlign="center">    */}
                         <Text fontSize="20px" color="whiteAlpha.800" fontWeight="bold">Michigan Mars Rovers Team</Text>
                         <Text fontSize="19px" color="whiteAlpha.800">Student Developer</Text>
-                        <Text fontSize="19px" color="whiteAlpha.800">Fall 2021 - Present</Text>
+                        <Text fontSize="19px" color="whiteAlpha.800">Fall 2021 - Winter 2022</Text>
                     {/* </Box> */}
                     <Flex mt={2} direction="row" justifyContent="left">
                         <Icon mt="7px" bg="whiteAlpha.900" as={AiFillStar} size="20px" />
@@ -44,7 +44,7 @@ const Activities = () => {
                     {/* <Box width="100%" textAlign="center">    */}
                         <Text fontSize="20px" color="whiteAlpha.800" fontWeight="bold">MPowered Entrepreneurship</Text>
                         <Text fontSize="19px" color="whiteAlpha.800">Talent Member & Event Executive</Text>
-                        <Text fontSize="19px" color="whiteAlpha.800">Fall 2021 - Present</Text>
+                        <Text fontSize="19px" color="whiteAlpha.800">Fall 2021 - Fall 2022</Text>
                     {/* </Box> */}
                     <Flex mt={2} direction="row" justifyContent="left">
                         <Icon mt="7px" bg="whiteAlpha.900" as={AiFillStar} size="20px" />

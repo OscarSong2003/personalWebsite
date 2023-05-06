@@ -19,11 +19,22 @@ const Experience = (): React.ReactElement => {
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">May 2023 - July 2023</Text>
             </Flex>
 
+            <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
+             width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
+                <Text fontSize="22px" color="whiteAlpha.800">Student Researcher @ Michigan Human-AI Lab</Text>
+                <Text mt={1} fontSize="20px" color="whiteAlpha.800">Ann Arbor, Michigan</Text>
+                <Text mt={1} fontSize="20px" color="whiteAlpha.800">August 2022 - Present</Text>
+                <Text my={5} fontSize="20px" color="whiteAlpha.800">
+                    Developed front-end user interface and coordinated backend audio annotation 
+                    services for the Omniscribe Project for BVI users to view 3D videos 
+                </Text>
+            </Flex>
+
              <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                 <Text fontSize="22px" color="whiteAlpha.800">Research Intern @ Michigan Human-AI Lab</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">Ann Arbor, Michigan</Text>
-                <Text mt={1} fontSize="20px" color="whiteAlpha.800">May 2022 - Present</Text>
+                <Text mt={1} fontSize="20px" color="whiteAlpha.800">May 2022 - August 2022</Text>
 
                 <Text my={5} fontSize="20px" color="whiteAlpha.800">
                     Enhanced the Human-Computer Interaction of machine learning toolkits 
