@@ -25,8 +25,7 @@ const About = (): React.ReactElement => {
                     I am currently pursuing a B.S. in Computer Science at the 
                     University of Michigan. </Text>
                     <Text my="20px" color="whiteAlpha.900" fontSize="20px">With a passion in 
-                    Software Development and Machine Learning, I am
-                    currently an Amazon Intern and student researcher at the Michigan Human-AI Lab.</Text>
+                    Software Development and Machine Learning, I'm a previous Amazon Intern and current student researcher at the Michigan Human-AI Lab.</Text>
                     <Text my="20px" color="whiteAlpha.900" fontSize="20px">
                     I have experience with full-stack development, and have worked with the following languages and technologies: 
                     </Text>

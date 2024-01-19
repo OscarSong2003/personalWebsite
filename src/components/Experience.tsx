@@ -10,13 +10,19 @@ import {
 const Experience = (): React.ReactElement => {
     return (
         <Flex id="experience" direction="column" justifyContent="center" alignItems="center"
-        width="100%" height="900px">
+        width="100%" height="900px" pt="300px" mb="100px">
              <Heading mb={5} color="whiteAlpha.900" className="animate-character3">Experience</Heading>
              <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                 <Text fontSize="22px" color="whiteAlpha.800">Software Development Engineer Intern @ Amazon</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">San Diego, California</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">May 2023 - July 2023</Text>
+                <Text my={5} fontSize="20px" color="whiteAlpha.800">
+                    Introduced client and team facing dashboards to reflect core system performance metrics for Buyer Abuse Engineering.
+                </Text>
+                <Text fontSize="20px" color="whiteAlpha.800">
+                    Developed a front-end user interface that facilitates the generation of JSON specifications used in internal machine learning pipelines and services.
+                </Text>
             </Flex>
 
             <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
