@@ -29,10 +29,9 @@ const Experience = (): React.ReactElement => {
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                 <Text fontSize="22px" color="whiteAlpha.800">Student Researcher @ Michigan Human-AI Lab</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">Ann Arbor, Michigan</Text>
-                <Text mt={1} fontSize="20px" color="whiteAlpha.800">August 2022 - Present</Text>
+                <Text mt={1} fontSize="20px" color="whiteAlpha.800">August 2022 - May 2024 git rm --cached omniscribe-copy</Text>
                 <Text my={5} fontSize="20px" color="whiteAlpha.800">
-                    Developed front-end user interface and coordinated backend audio annotation 
-                    services for the Omniscribe Project for BVI users to view 3D videos 
+                    Lead the creation of a 360° video viewing web interface for Blind and Visually Impaired (BVI) individuals to navigate panorama videos, integrating AI and HCI functionalities including object, scene, and spatial audio descriptions.
                 </Text>
             </Flex>
 
