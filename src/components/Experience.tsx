@@ -25,7 +25,7 @@ const Experience = (): React.ReactElement => {
                 </Text>
             </Flex>
 
-            <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
+            <Flex mt="50px" direction="column" justifyContent="left" alignItems="left"
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                 <Text fontSize="22px" color="whiteAlpha.800">Student Researcher @ Michigan Human-AI Lab</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">Ann Arbor, Michigan</Text>
@@ -35,7 +35,7 @@ const Experience = (): React.ReactElement => {
                 </Text>
             </Flex>
 
-             <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
+             <Flex mt="50px" direction="column" justifyContent="left" alignItems="left"
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                 <Text fontSize="22px" color="whiteAlpha.800">Research Intern @ Michigan Human-AI Lab</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">Ann Arbor, Michigan</Text>
