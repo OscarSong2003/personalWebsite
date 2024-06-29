@@ -57,7 +57,7 @@ const MainPage = (): React.ReactElement => {
                     </Button>
                 </Link>
                 <Spacer />
-                <Link mt={6} href="mailto: osong@umich.edu">
+                <Link mt={6} href="mailto: osong@upenn.edu">
                     <Button leftIcon={<HiOutlineMailOpen fontSize="20px" />}>
                         Email
                     </Button>
