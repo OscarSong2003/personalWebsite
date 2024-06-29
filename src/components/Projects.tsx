@@ -18,7 +18,7 @@ import { AiOutlineCheck } from "react-icons/ai";
 
 const Projects = (): React.ReactElement => {
     return (    
-        <Flex mt="500px" id="projects" direction="column" width="100%" minHeight="2600px" px="81px" alignItems="center" justifyContent="center">
+        <Flex mt="500px" id="projects" direction="column" width="100%" minHeight="2600px" paddingTop="150px" px="81px" alignItems="center" justifyContent="center">
             <Center width="100%"><Heading mb={5} color="whiteAlpha.900" className="animate-character4">Personal Projects</Heading></Center>
             
             <Flex mt="80px" direction="row"  width="90%"  height="500px" borderRadius="2xl" >
