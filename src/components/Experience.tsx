@@ -10,7 +10,7 @@ import {
 const Experience = (): React.ReactElement => {
     return (
         <Flex id="experience" direction="column" justifyContent="center" alignItems="center"
-        width="100%" height="900px" pt="300px" mb="100px">
+        width="100%" minHeight="900px" pt="300px" mb="100px">
              <Heading mb={5} color="whiteAlpha.900" className="animate-character3">Experience</Heading>
              <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
@@ -29,7 +29,7 @@ const Experience = (): React.ReactElement => {
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                 <Text fontSize="22px" color="whiteAlpha.800">Student Researcher @ Michigan Human-AI Lab</Text>
                 <Text mt={1} fontSize="20px" color="whiteAlpha.800">Ann Arbor, Michigan</Text>
-                <Text mt={1} fontSize="20px" color="whiteAlpha.800">August 2022 - May 2024 git rm --cached omniscribe-copy</Text>
+                <Text mt={1} fontSize="20px" color="whiteAlpha.800">August 2022 - May 2024</Text>
                 <Text my={5} fontSize="20px" color="whiteAlpha.800">
                     Lead the creation of a 360° video viewing web interface for Blind and Visually Impaired (BVI) individuals to navigate panorama videos, integrating AI and HCI functionalities including object, scene, and spatial audio descriptions.
                 </Text>

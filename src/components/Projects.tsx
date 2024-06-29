@@ -12,16 +12,77 @@ import {
     Icon,
     Link
 } from "@chakra-ui/react";
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaPenFancy } from "react-icons/fa";
 import { BsYoutube } from "react-icons/bs";
 import { AiOutlineCheck } from "react-icons/ai";
 
 const Projects = (): React.ReactElement => {
-    return (
-        <Flex pt="180px" id="projects" direction="column" width="100%" height="2600px" px="81px" alignItems="center" justifyContent="center">
-            <Center width="100%"><Heading mb={5} color="whiteAlpha.900" className="animate-character4">Projects</Heading></Center>
+    return (    
+        <Flex mt="500px" id="projects" direction="column" width="100%" minHeight="2600px" px="81px" alignItems="center" justifyContent="center">
+            <Center width="100%"><Heading mb={5} color="whiteAlpha.900" className="animate-character4">Personal Projects</Heading></Center>
             
-            <Flex mt="70px"direction="row"  width="90%"  height="500px" borderRadius="2xl" >
+            <Flex mt="80px" direction="row"  width="90%"  height="500px" borderRadius="2xl" >
+                <Box width="50%" height="80%" borderRadius="2xl" pl="0px" pt="10px">
+                    <Flex flexDirection="column" ml="0px" mr="40px" height="400px" px="15px" py="10px" borderRadius="2xl" borderColor="whiteAlpha.700">
+                        <Text color="whiteAlpha.900" fontSize="20px" fontWeight="bold">Omniscribe Web</Text>
+                        <Text color="whiteAlpha.900" fontSize="20px">Summer 2022 - Summer 2024</Text>
+                        <Flex flexDirection="row" width="62%" mt={5}>
+                            <Link target="_blank" href="https://youtu.be/63tZGhx5O_U">
+                                <Button leftIcon={<BsYoutube />}>
+                                    Video Demo
+                                </Button>
+                            </Link>
+                            <Spacer />
+                            <Link target="_blank" href="https://www.dropbox.com/scl/fi/g0j96j3nclek5bo0bz3j8/LSA-CS-Honors-Senior-Thesis-Linfeng-Song.pdf?rlkey=gifr9dztfhvckd0i68pa98pfm&st=95b28m2z&dl=0">
+                                <Button leftIcon={<FaPenFancy />}>
+                                    Honors Thesis
+                                </Button>
+                            </Link>
+                        </Flex>
+                        <Text color="whiteAlpha.800" fontSize="18px" mt={3}>
+                            A 360° video viewing web interface for Blind and Visually Impaired individuals to navigate
+                            panorama videos, integrating AI and HCI functionalities including object, scene, and spatial audio descriptions.
+                        </Text>
+                        <Text color="whiteAlpha.800" fontSize="18px" mt={3}>
+                            Awarded honors degree with senior honors thesis focused on the creation of Omniscribe Web leveraging Generative AI.
+                        </Text>
+                        <Text color="whiteAlpha.800" fontSize="18px" mt={3}>
+                            I primarily used the following technologies:  
+                        </Text>
+                        <SimpleGrid mt={3} columns={3} spacing={5} alignContent="left">
+                            <Button onClick={()=>{}} variant="link" justifyContent="left" leftIcon={<Icon bg="whiteAlpha.900" as={AiOutlineCheck} />} bg="none">
+                                <Text color="whiteAlpha.900" fontSize="20px">Panolens.js</Text>
+                            </Button>
+                            <Button onClick={()=>{}} variant="link" justifyContent="left" leftIcon={<Icon bg="whiteAlpha.900" as={AiOutlineCheck} />} bg="none">
+                                <Text color="whiteAlpha.900" fontSize="20px">Google Cloud</Text>
+                            </Button>
+                            <Button onClick={()=>{}} variant="link" justifyContent="left" leftIcon={<Icon bg="whiteAlpha.900" as={AiOutlineCheck} />} bg="none">
+                                <Text color="whiteAlpha.900" fontSize="20px">Text to Speech</Text>
+                            </Button>
+                            <Button onClick={()=>{}} variant="link" justifyContent="left" leftIcon={<Icon bg="whiteAlpha.900" as={AiOutlineCheck} />} bg="none">
+                                <Text color="whiteAlpha.900" fontSize="20px">Python</Text>
+                            </Button>
+                            <Button onClick={()=>{}} variant="link" justifyContent="left" leftIcon={<Icon bg="whiteAlpha.900" as={AiOutlineCheck} />} bg="none">
+                                <Text color="whiteAlpha.900" fontSize="20px">Firebase</Text>
+                            </Button>
+                            <Button onClick={()=>{}} variant="link" justifyContent="left" leftIcon={<Icon bg="whiteAlpha.900" as={AiOutlineCheck} />} bg="none">
+                                <Text color="whiteAlpha.900" fontSize="20px">Typescript React</Text>
+                            </Button>
+                        </SimpleGrid>
+                    </Flex>
+                </Box>
+                <Box width="50%" height="80%" borderWidth="2px" ml="30px" borderRadius="2xl">
+                    <Center width="100%" height="100%">
+                        {/* <Box borderRadius="2xl" as="iframe" src="https://www.youtube.com/embed/JEENmXVHiu4" allowFullScreen width="97%" height="96%"></Box> */}
+                        <Image mr="50px" mb="55px" borderRadius="2xl" height="100%" width="100%" src='/images/omniscribe.png' alt='Unex' />
+                    </Center>
+                </Box>
+            </Flex>
+            <Box mt="20px" mb="80px" width="20%" justifyContent="center" alignItems="center">
+                <hr></hr>
+            </Box>
+            {/* unex project  */}
+            <Flex direction="row"  width="90%"  height="500px" borderRadius="2xl" >
                 <Box width="50%" height="80%" borderRadius="2xl" borderWidth="2px">
                     <Center width="100%" height="100%">
                         {/* <Box borderRadius="2xl" as="iframe" src="https://www.youtube.com/embed/JEENmXVHiu4" allowFullScreen width="97%" height="96%"></Box> */}
