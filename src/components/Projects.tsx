@@ -34,8 +34,14 @@ const Projects = (): React.ReactElement => {
                             </Link>
                             <Spacer />
                             <Link target="_blank" href="https://www.dropbox.com/scl/fi/g0j96j3nclek5bo0bz3j8/LSA-CS-Honors-Senior-Thesis-Linfeng-Song.pdf?rlkey=gifr9dztfhvckd0i68pa98pfm&st=95b28m2z&dl=0">
-                                <Button leftIcon={<FaPenFancy />}>
+                                <Button  marginLeft="6px"  leftIcon={<FaPenFancy />}>
                                     Honors Thesis
+                                </Button>
+                            </Link>
+                            <Spacer />
+                            <Link target="_blank" href="https://www.youtube.com/watch?v=8fLy8r7CdpE">
+                                <Button marginLeft="6px" leftIcon={<FaPenFancy />}>
+                                    Presentation
                                 </Button>
                             </Link>
                         </Flex>

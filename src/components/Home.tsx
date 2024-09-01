@@ -23,7 +23,7 @@ const Home = (): React.ReactElement => {
             {/* <Heading className="animate-character" color="whiteAlpha.900" my={7} size="4xl"></Heading> */}
             <Heading className="animate-character" color="whiteAlpha.900" size="4xl">Song</Heading>
             <Text mt="50px" color="whiteAlpha.900" fontSize="23px" width="700px" textAlign="center">
-                I am an incoming <b>Masters Student</b> in Computer and Information Science @ the <b>University of Pennsylvania</b>.
+                I am a <b>Masters Student</b> in Computer and Information Science @ the <b>University of Pennsylvania</b>.
                 I love building, learning, and working with technologies! My interests 
                 include <b>Software Engineering</b>, <b>Machine Learning</b>, <b>HCI</b>, and <b>Data Science</b>. 
             </Text>

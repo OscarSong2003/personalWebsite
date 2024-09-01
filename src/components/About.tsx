@@ -23,7 +23,7 @@ const About = (): React.ReactElement => {
                 <Box width="57%" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                     <Text color="whiteAlpha.900" fontSize="20px">Hey! My name is Linfeng Song, 
                     but I also go by Oscar as well.
-                    I am an incoming Masters Student in Computer and Information Science @ the University of Pennsylvania.
+                    I am a Masters Student in Computer and Information Science @ the University of Pennsylvania.
                     Previously, I completed a B.S. in Computer Science with Honors at the 
                     University of Michigan. </Text>
                     <Text my="20px" color="whiteAlpha.900" fontSize="20px">With a passion in 
