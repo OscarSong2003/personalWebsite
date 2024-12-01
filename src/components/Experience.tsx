@@ -11,7 +11,7 @@ const Experience = (): React.ReactElement => {
     return (
         <Flex id="experience" direction="column" justifyContent="center" alignItems="center"
         width="100%" minHeight="900px" marginTop="300px" paddingTop="150px" mb="100px">
-             <Heading mb={5} color="whiteAlpha.900" className="animate-character3">Experience</Heading>
+             <Heading mb={5} color="whiteAlpha.900" fontSize="5xl" className="animate-character3">Experience</Heading>
              <Flex mt={9} direction="column" justifyContent="left" alignItems="left"
              width="50%" marginLeft="2px" borderLeft="2px" borderLeftWidth="2px" pl={5} borderColor="whiteAlpha.700">
                 <Text fontSize="22px" color="whiteAlpha.800">Software Development Engineer Intern @ Amazon</Text>

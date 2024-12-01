@@ -15,7 +15,7 @@ const Activities = () => {
     return (
         <Flex id="activities" direction="column" justifyContent="center" alignItems="center"
         width="100%" height="900px">
-            <Center width="100%"><Heading mb={5} color="whiteAlpha.900" className="animate-character5" >Activities & Interests</Heading></Center>
+            <Center width="100%"><Heading mb={5} color="whiteAlpha.900" className="animate-character5" fontSize="5xl" >Activities & Interests</Heading></Center>
             <Text fontSize="2xl" color="whiteAlpha.800">My extracurricular involvements & other passions.</Text>  
 
             <SimpleGrid mt="50px" columns={3} width="75%" spacing={8}>

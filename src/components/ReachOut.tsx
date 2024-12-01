@@ -17,7 +17,7 @@ const ReachOut = (): React.ReactElement => {
     return (
         <Flex id="reachOut" direction="column" justifyContent="center" alignItems="center"
         width="100%" height="700px">
-            <Center width="100%"><Heading mb={5} color="whiteAlpha.900" className="animate-character6">Contact & Connect With Me</Heading></Center>
+            <Center width="100%"><Heading mb={5} color="whiteAlpha.900" fontSize="5xl" className="animate-character6">Contact & Connect With Me</Heading></Center>
             <Box mt={3} width="55%" textAlign="center">
                 <Text fontSize="2xl" color="whiteAlpha.800">
                 {/* I am currently seeking software engineering related internships and opportunities! */}
