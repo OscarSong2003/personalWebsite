@@ -61,8 +61,8 @@ const About = (): React.ReactElement => {
                         </Button>
                     </SimpleGrid>
                 </Box>
-                <Box width="356px" ml="50px" height="460px" marginTop="35px" borderColor="whiteAlpha.600" borderWidth="5px" shadow="md">
-                    <Image height="450px" width="350px" src='/images/profilePic.png' alt='Linfeng Song' />
+                <Box width="330px" ml="50px" height="470px" marginTop="20px" borderColor="whiteAlpha.600" borderWidth="5px" shadow="md">
+                    <Image height="462px" width="330px" src='/images/profilePic.png' alt='Linfeng Song' />
                 </Box>
             </Flex>
         </Flex>
